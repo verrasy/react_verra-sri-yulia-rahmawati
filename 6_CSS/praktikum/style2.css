@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Slabo 27px';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/slabo27px/v12/mFT0WbgBwKPR_Z4hGN2qgxED1XJ7.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Slabo 27px';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/slabo27px/v12/mFT0WbgBwKPR_Z4hGN2qgx8D1Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  :root{
+    --main-size: 16px;
+  }
+
+  .nav{
+    background: white;
+    width: 100%;
+    height: 80px;
+  }
+
+  .nav ul{
+    float: right;
+    justify-content: right;
+  }
+
+  .nav ul li{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+  }
+  .fluid-container{
+    background-image: url(assets/sample-pattern.png);
+    height: 100%;
+  }
+
+  .h2{
+    font-family: "slabo27px";
+    font-weight: bold;
+    text-align: center;
+    color: #34465B;
+  }
+
+  .content{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .info-box{
+    width: 75%;
+    background-color: white;
+  }
+
+  .info-box-details{
+    padding: 16px;
+  }
+
+  .p{
+    font-family: "slabo27px";
+    color: #82AEE5;
+  }
+
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
